@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido #1475</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+      *:not(.material-symbols-rounded) {
+        font-family: "Sora" !important;
+        color: #fff;
+        font-weight: 300;
+      }
+
+      div,
+      p,
+      span,
+      a,
+      nav,
+      header,
+      footer,
+      small,
+      ul,
+      li,
+      label {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    </style>
+  </head>
+  <body id="inicio">
+    <nav
+      class="w-100 top-0 bg-none p-4 d-flex justify-content-between align-items-baseline"
+    >
+      <div>
+        <img src="./src/img/rapidido_white.png" width="200" alt="telas" />
+      </div>
+      <div class="menu-hamburguer" style="display: none" id="menuHamburguer">
+        <span class="material-symbols-rounded">menu</span>
+        <div class="menu-hamburguer-content">
+          <a href="#funcoes">Funções</a>
+          <a href="#como">Como Funciona</a>
+          <a href="#planos">Planos</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#contato">Contato</a>
+          <hr class="my-0 mb-2 text-black" />
+          <a
+            href="https://rapidido.com.br/login"
+            class="link-footer d-flex gap-2 fw-bold align-items-center"
+          >
+            <span
+              style="font-size: 1.3rem !important"
+              class="link-footer filled material-symbols-rounded"
+            >
+              person
+            </span>
+            Entrar</a
+          >
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+            target="_blank"
+            class="w-100 mt-2 text-decoration-none btn btn-primary"
+            >Teste grátis</a
+          >
+        </div>
+      </div>
+      <div
+        style="width: 70%"
+        class="nav-desk gap-3 flex-wrap d-flex align-items-center justify-content-between"
+      >
+        <a href="#funcoes" class="text-decoration-none">Funções</a>
+        <a href="#como" class="text-decoration-none">Como Funciona</a>
+        <a href="#planos" class="text-decoration-none">Planos</a>
+        <a href="#recursos" class="text-decoration-none">Recursos</a>
+        <a href="#contato" class="text-decoration-none">Contato</a>
+        <div class="d-flex gap-4">
+          <a
+            href="https://rapidido.com.br/login"
+            class="text-decoration-none d-flex gap-2 align-items-center"
+          >
+            <span class="material-symbols-rounded filled"> person </span>
+            <span class="fw-bold">Entrar</span></a
+          >
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+            target="_blank"
+            class="text-decoration-none btn btn-primary"
+            >Teste grátis</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section
+      id="funcoes"
+      class="mx-5 pt-3 d-grid gap-4 justify-content-around align-items-center"
+      style="grid-template-columns: 1fr 1fr; padding: 4rem 0"
+    >
+      <div class="container-func d-flex mt-5 flex-column gap-4">
+        <h2 class="mt-4 d-flex flex-column" style="font-size: 3rem">
+          <p class="text-white" style="line-height: 3.3rem">
+            Seu cardápio digital,
+          </p>
+          <p class="fw-bold text-primary" style="line-height: 3.7rem">
+            sem complicação<span class="text-white">.</span>
+          </p>
+        </h2>
+        <p class="fs-0 text-white" style="max-width: 450px">
+          Cadastre seus produtos, compartilhe o link e comece a vender online do
+          seu jeito, no seu tempo.
+        </p>
+        <div class="d-flex flex-column gap-3">
+          <div class="d-flex gap-3 align-items-center">
+            <span class="animate-x badge-secondary material-symbols-rounded">
+              arrow_right_alt
+            </span>
+            <div>
+              <span class="fw-bold">Cadastro</span> e
+              <span class="fw-bold">gestão simplificada</span> de produtos
+            </div>
+          </div>
+          <div class="d-flex gap-3 align-items-center">
+            <span class="animate-x badge-secondary material-symbols-rounded">
+              arrow_right_alt
+            </span>
+            <div>
+              <span class="fw-bold">Link personalizado</span> e design integrado
+              à sua marca
+            </div>
+          </div>
+          <div class="d-flex gap-3 align-items-center">
+            <span class="animate-x badge-secondary material-symbols-rounded">
+              arrow_right_alt
+            </span>
+            <div>Pagamento conforme uso, sem custos ocultos</div>
+          </div>
+        </div>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+          target="_blank"
+          class="mt-2 btn btn-primary"
+          >Teste grátis por um mês!</a
+        >
+      </div>
+      <div style="max-width: 500px" class="hide-mobile d-flex justify-content-center">
+        <img class="w-100" src="./src/img/sys.png" alt="bag" />
+      </div>
+    </section>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="100%"
+      height="100%"
+      viewBox="0 0 1512 44"
+      fill="none"
+    >
+      <path
+        d="M1512 14.41V55H0V47.87C0 47.04 0.15 46.19 0.46 45.35L22.23 4.66002C24.19 -0.579984 31.36 -1.18998 34.18 3.66002L36.54 7.73002C38.95 11.87 43.38 14.41 48.16 14.41H1512Z"
+        fill="#076B5B"
+      />
+    </svg>
+    <section id="como" style="background-color: #076b5b">
+      <div
+        style="grid-template-columns: 1fr 2fr"
+        class="mx-5 py-5 d-grid gap-4 justify-content-around align-items-center"
+      >
+        <div class="hide-mobile">
+          <img class="w-100" src="./src/img/bag.png" alt="telas" />
+        </div>
+        <div class="ps-4 d-flex gap-3 flex-column">
+          <div
+            class="badge-secondary"
+            style="background-color: #418578 !important"
+          >
+            3 passos simples
+          </div>
+          <div class="fw-bold fs-2">
+            Como o <span class="text-primary fw-bold">Rapidido</span> funciona?
+          </div>
+          <div>
+            Em três etapas, você passa do cardápio no papel para uma operação
+            100% digital e integrada.
+          </div>
+          <div
+            class="d-grid mt-3 justify-content-between gap-3"
+            style="grid-template-columns: 1fr 1fr 1fr"
+          >
+            <div class="d-flex flex-column gap-1">
+              <div class="index-number badge-secondary fw-bold">1</div>
+              <div class="fw-bold text-primary mt-2" style="font-size: 1rem">
+                Acesso ao cardápio
+              </div>
+              <p style="font-size: 0.8rem !important">
+                Cliente abre o link no celular e escolhe itens com fotos e
+                descrições
+              </p>
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <div class="index-number badge-secondary fw-bold">2</div>
+              <div class="fw-bold text-primary mt-2" style="font-size: 1rem">
+                Confirmação do pedido
+              </div>
+              <p style="font-size: 0.8rem !important">
+                Você recebe uma notificação instantânea e começa o preparo.
+              </p>
+            </div>
+            <div class="d-flex flex-column gap-1">
+              <div class="index-number badge-secondary fw-bold">3</div>
+              <div class="fw-bold text-primary mt-2" style="font-size: 1rem">
+                Entrega e pagamento
+              </div>
+              <p style="font-size: 0.8rem !important">
+                Motoboy ou você entrega o pedido e recebe o pagamento em
+                segurança.
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+            target="_blank"
+            class="mt-3 btn btn-secondary"
+            >Teste grátis por um mês!</a
+          >
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1512 74"
+        fill="none"
+      >
+        <path
+          d="M744.68 54.1861L746.1 56.6361L746.94 58.8661C748.86 63.9861 754.12 66.0961 758.68 64.9161C761.78 64.2861 764.61 62.1961 765.91 58.7361L766.47 57.2361L768.17 54.3161C771.74 48.1761 778.3 44.4161 785.39 44.4061C967.04 44.0361 1512 41.4461 1512 41.4461V84.4761H0V41.4561C0 41.4561 545.59 43.9261 727.46 44.2861C734.56 44.2961 741.11 48.0661 744.68 54.1961V54.1861Z"
+          fill="#FDF8F7"
+        />
+        <path
+          d="M785.39 44.4061C778.3 44.4161 771.74 48.1761 768.17 54.3161L766.47 57.2361L765.91 58.7361C764.61 62.1961 761.78 64.2861 758.68 64.9161C754.12 66.0961 748.86 63.9861 746.94 58.8661L746.1 56.6361L744.68 54.1861C741.11 48.0561 734.56 44.2861 727.46 44.2761C545.59 43.9261 0 41.4561 0 41.4561V0.476074H1512V41.4561C1512 41.4561 967.04 44.0461 785.39 44.4161V44.4061Z"
+          fill="#076B5B"
+        />
+      </svg>
+    </section>
+    <section id="planos" style="background-color: #fdf8f7; padding-top: 2rem">
+      <div
+        class="mx-5 d-flex align-items-center justify-content-center flex-column gap-3"
+      >
+        <div
+          class="badge-secondary fw-bold"
+          style="
+            background-color: #d5e1de !important;
+            color: #076b5b !important;
+          "
+        >
+          Planos
+        </div>
+        <h2 class="text-center text-black fs-3">
+          Opções para empresas de
+          <span class="fw-bold" style="color: #076b5b">todos os tamanhos</span>
+        </div>
+        <div class="text-black text-center mb-4 px-4">
+          Sem surpresas: flexibilidade e transparência desde o primeiro mês
+        </div>
+      </div>
+      <div id="planos-container" class="d-flex justify-content-center align-items-center">
+        <div class="plan-card"
+          style="
+            border-radius: 32px 0 0 32px;
+            border: 2px solid #c1c8c5;
+            border-right: none;
+            width: 420px;
+            height: fit-content;
+          "
+        >
+          <div
+            class="p-4"
+            style="background-color: #eaeadf; border-radius: 32px 0 0 0"
+          >
+            <div class="fw-bold" style="color: #076b5b; font-size: 1.3rem">
+              Plano essencial
+            </div>
+            <div class="text-black" style="font-size: 0.9rem">
+              Para pequenos negócios
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-3 p-4">
+            <div class="d-flex align-items-center gap-2">
+              <span style="color: #076b5b">R$</span>
+              <span class="fw-bold" style="color: #076b5b; font-size: 1.3rem"
+                >49,99</span
+              >
+              <span style="color: #076b5b">/mês</span>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 0,50</span
+                  >
+                  por pedido adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >3 usuários</span
+                  >
+                  inclusos</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 39,99</span
+                  >
+                  por usuário adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Gestão de pedidos, produtos, clientes e entregadores</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  1 mês grátis</span
+                >
+              </div>
+            </div>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+assinar+o+plano+essencial+do+Rapidido%21&type=phone_number&app_absent=0"
+              target="_blank"
+              class="btn btn-secondary mt-2 w-100"
+              style="
+                border: 2px solid #717976 !important;
+                color: #076b5b !important;
+              "
+              >Assinar agora!</a
+            >
+          </div>
+        </div>
+        <div class="plan-card principal"
+          style="border-radius: 32px; border: 3px solid #076b5b; width: 420px"
+        >
+          <div
+            class="p-4"
+            style="background-color: #076b5b; border-radius: 24px 24px 0 0"
+          >
+            <div class="fw-bold" style="font-size: 1.3rem">Plano PRO</div>
+            <div style="font-size: 0.9rem">Para pequenos negócios</div>
+          </div>
+          <div class="d-flex flex-column gap-3 p-4">
+            <div class="d-flex py-3 align-items-center gap-2">
+              <span style="color: #076b5b">R$</span>
+              <span class="fw-bold" style="color: #076b5b; font-size: 1.8rem"
+                >99,99</span
+              >
+              <span style="color: #076b5b">/mês</span>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 0,45</span
+                  >
+                  por pedido adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >10 usuários</span
+                  >
+                  inclusos</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 5,00</span
+                  >
+                  por usuário adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Gestão de pedidos, produtos, clientes e entregadores</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  1 mês grátis</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Cardápio digital personalizado</span
+                >
+              </div>
+            </div>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+assinar+o+plano+PRO+do+Rapidido%21&type=phone_number&app_absent=0"
+              target="_blank"
+              class="btn btn-tertiary mt-2 w-100"
+              >Assinar agora!</a
+            >
+          </div>
+        </div>
+        <div class="plan-card"
+          style="
+            border-radius: 0 32px 32px 0;
+            border: 2px solid #c1c8c5;
+            border-left: none;
+            width: 420px;
+            height: fit-content;
+          "
+        >
+          <div
+            class="p-4"
+            style="background-color: #eaeadf; border-radius: 0 32px 0 0"
+          >
+            <div class="fw-bold" style="color: #076b5b; font-size: 1.3rem">
+              Plano Premium
+            </div>
+            <div class="text-black" style="font-size: 0.9rem">
+              Soluções personalizadas
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-3 p-4">
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 0,40</span
+                  >
+                  por pedido adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >20 usuários</span
+                  >
+                  inclusos</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem"
+                  ><span class="fw-bold text-muted" style="font-size: 0.9rem"
+                    >R$ 29,99</span
+                  >
+                  por usuário adicional</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Gestão de pedidos, produtos, clientes e entregadores</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Cardápio digital personalizado</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Relatórios de gestão</span
+                >
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="color: #076b5b; background-color: #d5e1de !important"
+                >
+                  check
+                </span>
+                <span class="text-black" style="font-size: 0.9rem">
+                  Pagamento digital</span
+                >
+              </div>
+            </div>
+            <a
+              class="btn btn-secondary disabled mt-2 w-100"
+              style="
+                border: 2px solid #717976 !important;
+                color: #717976 !important;
+              "
+              >Em breve</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-5 d-flex flex-column align-items-center gap-3 justify-content-center mt-4"
+      >
+        <div class="text-center px-4 text-black">
+          O Rapidido se integra com as ferramentas que você já usa:
+        </div>
+        <div id="integracoes" class="d-flex gap-4 align-items-start">
+          <div>
+            <img class="w-100" src="./src/img/ifood.png" alt="Integração 1" />
+          </div>
+          <div>
+            <img class="w-100" src="./src/img/asaas.png" alt="Integração 2" />
+          </div>
+          <div>
+            <img class="w-100" src="./src/img/wpp.png" alt="Integração 3" />
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1512 74"
+        fill="none"
+      >
+        <path
+          d="M0 84.4761V41.0661H1463.84C1468.62 41.0661 1473.05 43.6061 1475.46 47.7461L1477.82 51.8161C1480.64 56.6661 1487.81 56.0561 1489.77 50.8161L1511.54 10.1261C1511.85 9.28608 1512 8.43607 1512 7.60607V84.4761H0Z"
+          fill="#00201A"
+        />
+        <path
+          d="M0 41.0661V0.476074H1512V7.60607C1512 8.43607 1511.85 9.28608 1511.54 10.1261L1489.77 50.8161C1487.81 56.0561 1480.64 56.6661 1477.82 51.8161L1475.46 47.7461C1473.05 43.6061 1468.62 41.0661 1463.84 41.0661H0Z"
+          fill="#FDF8F7"
+        />
+      </svg>
+    </section>
+    <section
+      id="recursos"
+      style="background-color: #00201a; padding-top: 2rem !important"
+    >
+      <div
+        class="d-flex flex-column gap-3 justify-content-center align-items-center"
+      >
+        <div class="fw-bold badge-secondary">Recursos</div>
+        <div class="fs-3">
+          <span class="fw-bold text-primary">Tudo</span> o que você
+          <span class="fw-bold text-primary">precisa</span>
+        </div>
+        <div class="text-center w-100">
+          Veja como cada ferramenta ajuda você a economizar tempo e oferecer uma
+          experiência profissional.
+        </div>
+        <div class="box-resoucers d-flex justify-content-around w-100 mx-5">
+          <div
+            class="d-flex mt-4 flex-column gap-4 fs-column position-relative"
+          >
+            <div
+              class="resource-container ms-5"
+            >
+              <span class="material-symbols-rounded resource-icon filled">
+                palette
+              </span>
+              <h2>Cardápio digital personalizado</h2>
+              <p>Monte seu cardápio e publique online em poucos cliques</p>
+            </div>
+            <div class="resource-container">
+              <span class="material-symbols-rounded resource-icon filled">
+                filter_alt
+              </span>
+              <h2>Gerenciamento de pedidos</h2>
+              <p>
+                Filtre por status, data ou cliente e nunca perca um pedido de
+                vista
+              </p>
+            </div>
+            <div
+              class="resource-container ms-5"
+            >
+              <span class="material-symbols-rounded resource-icon filled">
+                my_location
+              </span>
+              <h2>Controle de raio de entrega</h2>
+              <p>
+                Defina a distância máxima para receber pedidos onde você quiser.
+              </p>
+            </div>
+          </div>
+          <div style="width: 400px;">
+            <img id="rocket" class="w-100" src="./src/img/rocket.png" alt="Integração 4" />
+          </div>
+          <div class="d-flex mt-4 flex-column gap-4">
+            <div class="resource-container">
+              <span class="material-symbols-rounded resource-icon filled">
+                trending_up
+              </span>
+              <h2>Relatórios em tempo real</h2>
+              <p>
+                Acompanhe vendas e performance com gráficos simples de entender
+              </p>
+            </div>
+            <div
+              class="resource-container ms-5"
+            >
+              <span class="material-symbols-rounded resource-icon">
+                contract
+              </span>
+              <h2>Impressão de cupom</h2>
+              <p>
+                Conecte sua impressora e emita cupons fiscais direto da
+                plataforma
+              </p>
+            </div>
+            <div class="resource-container">
+              <span class="material-symbols-rounded resource-icon filled">
+                edit
+              </span>
+              <h2>Pedido customizado</h2>
+              <p>
+                Seus clientes montam combos e escolhem adicionais sem
+                complicação.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+          target="_blank"
+          class="btn-secondary btn mt-3"
+          >Teste grátis por um mês!</a
+        >
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1512 74"
+        fill="none"
+      >
+        <path
+          d="M744.68 54.1861L746.1 56.6361L746.94 58.8661C748.86 63.9861 754.12 66.0961 758.68 64.9161C761.78 64.2861 764.61 62.1961 765.91 58.7361L766.47 57.2361L768.17 54.3161C771.74 48.1761 778.3 44.4161 785.39 44.4061C967.04 44.0361 1512 41.4461 1512 41.4461V84.4761H0V41.4561C0 41.4561 545.59 43.9261 727.46 44.2861C734.56 44.2961 741.11 48.0661 744.68 54.1961V54.1861Z"
+          fill="#FBF9ED"
+        />
+        <path
+          d="M785.39 44.4061C778.3 44.4161 771.74 48.1761 768.17 54.3161L766.47 57.2361L765.91 58.7361C764.61 62.1961 761.78 64.2861 758.68 64.9161C754.12 66.0961 748.86 63.9861 746.94 58.8661L746.1 56.6361L744.68 54.1861C741.11 48.0561 734.56 44.2861 727.46 44.2761C545.59 43.9261 0 41.4561 0 41.4561V0.476074H1512V41.4561C1512 41.4561 967.04 44.0461 785.39 44.4161V44.4061Z"
+          fill="#00201A"
+        />
+      </svg>
+    </section>
+    <section
+      id="planos"
+      style="background-color: #fbf9ed; padding-top: 2rem !important"
+    >
+      <div class="mx-5">
+        <div
+          class="d-grid justify-content-between w-100"
+          style="grid-template-columns: 1fr 2fr; gap: 3.5rem"
+        >
+          <div id="img-vantagens" class="d-flex align-items-center">
+            <img class="w-100" src="./src/img/vantagens.png" alt="vantagens" />
+          </div>
+          <div class="d-flex flex-column gap-3" id="container-vantagens">
+            <div
+              class="badge-secondary fw-bold"
+              style="
+                color: #076b5b !important;
+                background-color: #d4e2d6 !important;
+              "
+            >
+              Vantagens
+            </div>
+            <div class="text-black fs-2">
+              Por que escolher o
+              <span class="fw-bold text-secondary">Rapidido?</span>
+            </div>
+            <p class="text-black" style="font-size: 0.85rem">
+              Gerencie seus pedidos com mais agilidade, controle e praticidade.
+              O rapidido ajuda você a focar no que realmente importa: o
+              crescimento do seu negócio
+            </p>
+            <div class="d-flex mt-2 flex-column gap-2">
+              <div class="d-flex gap-3 align-items-center">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="
+                    background-color: #d4e2d6 !important;
+                    color: #076b5b !important;
+                    font-size: 1rem;
+                    padding-top: 0.25rem !important;
+                  "
+                >
+                  dashboard
+                </span>
+                <div class="text-black" style="font-size: 0.9rem">
+                  Tenha um sistema simples para
+                  <span class="fw-bold text-black"
+                    >gerenciar todos os pedidos em um só lugar</span
+                  >.
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="
+                    background-color: #d4e2d6 !important;
+                    color: #076b5b !important;
+                    font-size: 1rem;
+                    padding-top: 0.25rem !important;
+                  "
+                >
+                  account_tree
+                </span>
+                <div class="text-black" style="font-size: 0.9rem">
+                  Conecte facilmente com
+                  <span class="fw-bold text-black">Whatsapp, iFood</span> e
+                  cobranças via <span class="fw-bold text-black">Asaas</span>.
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center">
+                <span
+                  class="badge-secondary material-symbols-rounded filled"
+                  style="
+                    background-color: #d4e2d6 !important;
+                    color: #076b5b !important;
+                    font-size: 1rem;
+                    padding-top: 0.25rem !important;
+                  "
+                >
+                  local_dining
+                </span>
+                <div class="text-black" style="font-size: 0.9rem">
+                  <span class="fw-bold text-black">Configure seu cardápio</span
+                  >, controle <span class="fw-bold text-black">status</span> e
+                  <span class="fw-bold text-black">organize entregas</span> sem
+                  complicações.
+                </div>
+              </div>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+                target="_blank"
+                class="btn btn-primary mt-4"
+                >Comece agora gratuitamente!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="parceiros d-grid justify-content-between w-100"
+          style="
+            grid-template-columns: 1fr 2fr;
+            gap: 1.5rem;
+          "
+        >
+          <div id="container-parceiros" class="d-flex flex-column gap-2" style="width: 300px">
+            <div class="text-black" style="line-height: 1.2; font-size: 1.4rem">
+              Quem já conta com o
+              <span class="text-secondary fw-bold">Rapidido</span>
+            </div>
+            <p class="text-muted" style="width: 300px">
+              Negócios que simplificaram seus pedidos com a nossa ajuda.
+            </p>
+          </div>
+          <div class="carousel">
+            <div class="carousel-track">
+              <div>
+                <img src="./src/img/nossa_senhora_aparecida.png" alt="rnsa" />
+              </div>
+              <div>
+                <img src="./src/img/explosao_de_sabores.jpeg" alt="rnsa" />
+              </div>
+              <div>
+                <img src="./src/img/borges.png" alt="rnsa" />
+              </div>
+              <div>
+                <img src="./src/img/cherry_confeitaria.png" alt="rnsa" />
+              </div>
+
+              <!-- DUPLICATA  -->
+
+              <div class="duplicate">
+                <img src="./src/img/nossa_senhora_aparecida.png" alt="rnsa" />
+              </div>
+              <div class="duplicate">
+                <img src="./src/img/explosao_de_sabores.jpeg" alt="rnsa" />
+              </div>
+              <div class="duplicate">
+                <img src="./src/img/borges.png" alt="rnsa" />
+              </div>
+              <div class="duplicate">
+                <img src="./src/img/cherry_confeitaria.png" alt="rnsa" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1512 74"
+        fill="none"
+      >
+        <path
+          d="M0 84.5916V41.1816H1463.84C1468.62 41.1816 1473.05 43.7216 1475.46 47.8616L1477.82 51.9316C1480.64 56.7816 1487.81 56.1716 1489.77 50.9316L1511.54 10.2416C1511.85 9.40155 1512 8.55155 1512 7.72155V84.5916H0Z"
+          fill="#076B5B"
+        />
+        <path
+          d="M0 41.1816V0.591553H1512V7.72155C1512 8.55155 1511.85 9.40155 1511.54 10.2416L1489.77 50.9316C1487.81 56.1716 1480.64 56.7816 1477.82 51.9316L1475.46 47.8616C1473.05 43.7216 1468.62 41.1816 1463.84 41.1816H0Z"
+          fill="#FBF9ED"
+        />
+      </svg>
+    </section>
+    <section style="background-color: #076b5b; padding-top: 2rem">
+      <div
+        class="mx-5 pb-4 d-grid align-items-center justify-content-between"
+        style="grid-template-columns: 2fr 1fr; gap: 2rem !important"
+      >
+        <div class="d-flex flex-column gap-3">
+          <div
+            class="fw-bold badge-secondary"
+            style="background-color: #2f8375 !important"
+          >
+            Parceria
+          </div>
+          <div class="fs-2">
+            Apoiamos o
+            <span class="fw-bold text-primary">empreendedorismo</span> na
+            prática
+          </div>
+          <p>
+            O Rapidido é parceiro do
+            <span class="fw-bold">Instituto Gourmet</span> e fornece uma versão
+            institucional da plataforma para uso em sala de aula. Com ela,
+            estudantes aprendem a gerenciar pedidos e cardápios em um ambiente
+            real, ganhando mais preparo para empreender de verdade.
+          </p>
+          <div style="font-size: 1.2rem">
+            Empreender
+            <span class="fw-bold text-primary">começa na educação</span>.
+            Estamos juntos nessa.
+          </div>
+          <div id="btn-container" class="d-flex mt-3 gap-4 align-items-center">
+            <a
+              class="btn btn-primary"
+              href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+              target="_blank"
+              >Seja parceiro Rapidido</a
+            >
+            <a class="fw-bold" href="#" style="text-decoration: none"
+              >Conheça a versão educacional</a
+            >
+          </div>
+        </div>
+        <div class="hide-mobile">
+          <img class="w-100" src="./src/img/parceria.png" alt="Integração 4" />
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1512 74"
+        fill="none"
+      >
+        <path
+          d="M1512 84.5918V41.1818H48.16C43.38 41.1818 38.95 43.7218 36.54 47.8618L34.18 51.9318C31.36 56.7818 24.19 56.1718 22.23 50.9318L0.46 10.2418C0.15 9.4018 0 8.55179 0 7.72179V84.5918H1512Z"
+          fill="#0E352D"
+        />
+        <path
+          d="M1512 41.1818V0.591797H0V7.72179C0 8.55179 0.15 9.4018 0.46 10.2418L22.23 50.9318C24.19 56.1718 31.36 56.7818 34.18 51.9318L36.54 47.8618C38.95 43.7218 43.38 41.1818 48.16 41.1818H1512Z"
+          fill="#076B5B"
+        />
+      </svg>
+    </section>
+    <section id="contato" style="padding-top: 2rem">
+      <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="p-4 d-flex flex-column gap-3 align-items-center"
+          style="
+            border-radius: 24px 24px 0 0;
+            background-color: #fff !important;
+          "
+        >
+          <div
+            class="fw-bold text-secondary badge-secondary"
+            style="background-color: #d7e7e5 !important"
+          >
+            Contato
+          </div>
+          <div class="text-black" style="font-size: 1.3rem">
+            Quer <span class="fw-bold text-secondary">falar com a gente</span>?
+          </div>
+          <div class="text-black" style="font-size: 0.9rem">
+            Preencha seus dados e nossa equipe entra em contato rapidinho.
+          </div>
+          <div class="d-flex gap-4">
+            <div class="d-flex align-items-center gap-2">
+              <span
+                style="
+                  font-size: 12px;
+                  padding: 6px 12px !important;
+                  background-color: #d7e7e5 !important;
+                "
+                class="text-secondary badge-secondary material-symbols-rounded filled"
+                >alternate_email</span
+              >
+              <span style="font-size: 12px" class="text-black"
+                >contato@rapidido.com.br</span
+              >
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span
+                style="
+                  font-size: 12px;
+                  padding: 6px 12px !important;
+                  background-color: #d7e7e5 !important;
+                "
+                class="text-secondary badge-secondary material-symbols-rounded filled"
+                >phone_enabled</span
+              >
+              <span style="font-size: 12px" class="text-black"
+                >(11) 9 80197065</span
+              >
+            </div>
+          </div>
+          <form id="contact-form">
+            <div class="row mt-2">
+              <div class="form-group">
+                <input type="text" id="name" placeholder=" " />
+                <label for="name" class="text-secondary"
+                  >Nome e Sobrenome</label
+                >
+                <div class="invalid-feedback">Adicione seu nome</div>
+              </div>
+              <div class="form-group">
+                <input type="text" id="business" placeholder=" " />
+                <label for="business" class="text-secondary"
+                  >Nome da empresa</label
+                >
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group">
+                <input type="email" id="email" placeholder=" " />
+                <label for="email" class="text-secondary"
+                  >Endereço de E-mail</label
+                >
+                <div class="invalid-feedback">Adicione um e-mail válido</div>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" placeholder=" " />
+                <label for="phone" class="text-secondary"
+                  >Número de WhatsApp</label
+                >
+                <div class="invalid-feedback">Adicione um número válido</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <select class="text-black" id="subject" value="">
+                <option value="" disabled selected></option>
+                <option value="duvida">Dúvida</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="suporte">Suporte</option>
+              </select>
+              <label for="subject" class="text-secondary">Assunto</label>
+              <div class="invalid-feedback">Selecione o assunto a tratar</div>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" placeholder=" "></textarea>
+              <label for="message" class="text-secondary">Mensagem</label>
+              <div class="invalid-feedback">Adicione sua mensagem</div>
+            </div>
+            <button type="submit" class="btn btn-tertiary w-100">
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="w-100 bg-white">
+      <div
+        class="p-4 border-bottom d-flex align-items-center justify-content-between"
+      >
+        <img src="./src/img/rapidido.png" width="160" alt="rapidido" />
+        <div class="hide-mobile d-flex gap-5">
+          <a class="link-footer" href="#inicio">Início</a>
+          <a class="link-footer" href="#recursos">Recursos</a>
+          <a class="link-footer" href="#como">Como funciona</a>
+          <a class="link-footer" href="#planos">Planos</a>
+          <a
+            href="https://rapidido.com.br/login"
+            class="link-footer d-flex gap-1 fw-bold align-items-center"
+          >
+            <span class="link-footer filled material-symbols-rounded">
+              person
+            </span>
+            Entrar</a
+          >
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511980197065&text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+teste+grátis+do+Rapidido%21&type=phone_number&app_absent=0"
+            target="_blank"
+            class="link-footer d-flex gap-1 fw-bold align-items-center"
+          >
+            Teste grátis
+          </a>
+        </div>
+        <div></div>
+      </div>
+      <div class="py-2 px-4 d-flex justify-content-between">
+        <small class="small text-muted">
+          Copyright © 2025 - Todos os direitos reservados - Univercode
+        </small>
+        <small class="small text-muted"> Política de privacidade </small>
+      </div>
+    </footer>
+
+    <span id="btnTopo" class="material-symbols-rounded"> arrow_upward </span>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./../js/jquery.js"></script>
+    <script src="./js/jquery.mask.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
